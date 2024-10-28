@@ -1,0 +1,17 @@
+@media screen and (max-width:640px) {
+    #box-pages{
+        bottom: -60px;
+        left: 0;
+    }
+    #pages-link::after{
+        transform: rotate(90deg);
+        top: 73px !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+    #right-side{
+        margin: 0;
+    }
+}
+
+

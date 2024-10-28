@@ -1,0 +1,14 @@
+#hr {
+    animation: hr 3s ease-in-out alternate infinite;
+    transition: all .3s;
+}
+
+@keyframes hr {
+    0% {
+        width: 100%;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
