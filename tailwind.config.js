@@ -18,10 +18,14 @@ module.exports = {
         desc: '#BDBDBD', // description
         base: '#20202A',
         chart: "#FFCB05",
-        outline: "#17242C"
+        outline: "#17242C",
+        border: '#6C6C6C',
+        form_text: "#858585",
+        form_base: "#FA7A26"
       },
     },
   },
   plugins: [],
 }
+
 
