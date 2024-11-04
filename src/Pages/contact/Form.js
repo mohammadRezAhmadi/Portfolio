@@ -2,7 +2,6 @@ import React  , {useState}from "react";
 import { Link } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import HrAnime from "../../Components/hrAnimation/HrAnime";
-import './form.css'
 export default function Form() {
 
 
