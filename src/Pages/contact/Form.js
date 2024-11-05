@@ -9,7 +9,7 @@ export default function Form() {
       {title: "AGE" , src:'./icons/user.svg'},
       {title: "FRELANCE" , src:'./icons/bullseye.svg'},
       {title: "PHONE" , src:'./icons/alternate-phone.svg'},
-      {title: "RESIDENCE" , src:'./icons/apartment.svg'},
+      {title: "RESIDENCE" , src:'./icons/globe-with-americas-shown.svg'},
       {title: "ADDRESS" , src:'./icons/alternate-map-marker.svg'},
       {title: "E-Mail" , src:'./icons/paper-plane.svg'}
       ]);
