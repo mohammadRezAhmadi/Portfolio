@@ -45,7 +45,7 @@ export default function Form() {
 </form>
 
         </div>
-        <div className="basis-1/2  border-[1px] rounded-xl border-border p-7 mt-5 lg:mt-0 bg-base">
+        <div className="basis-1/2  border-[1px] rounded-xl border-border py-7 pr-6 pl-9  mt-5 lg:mt-0 bg-base">
         <div className="flex flex-col">
           <h1 className="text-title text-sm">MohammadReza Ahmadi</h1>
           <h3 class="bg-gradient-to-r text-[10px] from-f1 via-f2 inline-block toto-f2 text-transparent bg-clip-text">
@@ -53,22 +53,27 @@ export default function Form() {
           </h3>
         </div>
         <div className="flex flex-row mt-3">
-            <ul>
+            <ul className="relative">
                 {
                     list.map(data =>(
+                      <>
+                           <img src={data.src} className="w-3  bg-red-600 bg-clip-text text-transparent absolute inline-block -left-6 mt-2"/>
                         <li className="text-[11px] leading-7 text-title font-bold">
                           {/* <img src={data.src} className="inline w-3 bg-red-600 bg-clip-text text-transparent"/> */}
                             {`${data.title}:`}
                             </li>
+                      </>
                     ))
                 }
             </ul>
-            <ul className="ml-2">
+            <ul className="ml-2 truncate">
             {
-                    listTwo.map(data =>(
+                    listTwo.map(data =>(   
+                      <>
                         <li className="text-[10px] leading-7 text-white">
                             {data}
                             </li>
+                      </>
                     ))
                 }
             </ul>
