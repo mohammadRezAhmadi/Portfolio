@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 export default function Resume() {
   return (
     <div className="flex flex-col">
-      <div className="resume min-h-[301px]">
+      <div className="resume min-h-[489px]">
         <HrAnime title="FRONTEND-DEVELOPER" head="MohammadReza Ahmadi" />
         <TypeAnimation
          cursor={true} 

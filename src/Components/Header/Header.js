@@ -9,7 +9,8 @@ export default function Header() {
   className={"text-title text-2xl"}
   sequence={['Mhmrez.', 1000 , '']}
   repeat={Infinity}
-  deletionSpeed={99}
+  deletionSpeed={250}
+  speed={250}
 />
       {/* <h1 className='text-title text-2xl mb-4'>Mhmrez.</h1> */}
     </div>

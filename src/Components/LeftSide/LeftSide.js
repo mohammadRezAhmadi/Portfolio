@@ -87,7 +87,7 @@ export default function LeftSide() {
             </ul>
           </div>
           <hr color="#3D3D4A" className="w-[90%] opacity-20 my-6 mx-auto"/>
-          <div className="flex flex-col sm:flex-row justify-center sm:space-x-10 space-y-5 sm:space-y-0 items-center">
+          <div className="flex flex-row justify-center space-x-10 items-center">
           <ChartPie chartData={chartData} />
           <ChartPie chartData={chartDataTwo} />
           </div>
