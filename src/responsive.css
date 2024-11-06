@@ -12,6 +12,9 @@
     #right-side{
         margin: 0;
     }
+    .resume{
+        min-height: 489px;
+    }
 }
 
 
