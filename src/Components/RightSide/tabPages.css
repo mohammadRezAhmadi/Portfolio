@@ -1,0 +1,7 @@
+.active-route div{
+    background:linear-gradient(to right , #FBC322 , #FA7527) !important;
+}
+.active-route div::after{
+    visibility: visible !important;
+    opacity: 1 !important;
+}
