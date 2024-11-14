@@ -92,7 +92,7 @@ export default function LeftSide() {
           <ChartPie chartData={chartDataTwo} />
           </div>
           <Socials/>
-          <a role="button" download={"Cv"} href="/cv/CV.pdf" className="rounded-b-lg text-center text-sm text-[#211F1F] block py-3 bg-gradient-to-r from-f1 to-f2" >
+          <a role="button" download={"Mhmrez Cv"} href="/cv/CV.pdf" className="rounded-b-lg text-center text-sm text-[#211F1F] block py-3 bg-gradient-to-r from-f1 to-f2" >
           <DownloadIcon/>
           Download Cv</a>
         </div>
