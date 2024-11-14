@@ -19,7 +19,7 @@ export default function Socials() {
       <a href="#" className='bg-[#B7081B] basis-1/5 py-4 group' id='link-social'>
         <PinterestIcon className='group-hover:scale-125 group-hover:transition-all'/>
       </a>
-      <a href="https://www.linkedin.com/in/mohammadreza-ahmadi-b06aaa209" id='link-social' target='_blank' className='bg-[#0077b5] basis-1/5 py-4 group'>
+      <a href="https://www.linkedin.com/in/mhmrez" id='link-social' target='_blank' className='bg-[#0077b5] basis-1/5 py-4 group'>
         <LinkedInIcon className='group-hover:scale-125 group-hover:transition-all'/>
       </a>
     </div>
