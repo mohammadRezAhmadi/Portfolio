@@ -1,11 +1,12 @@
 import React , {useEffect}from 'react'
+import './skills.css'
+import './items.css'
 import Header from '../../Components/Header/Header';
 import LeftSide from '../../Components/LeftSide/LeftSide';
 import RightSide from '../../Components/RightSide/RightSide';
 import HrAnime from '../../Components/hrAnimation/HrAnime';
 import Items from './Items';
 import Data from './dataSkills'
-import './items.css'
 
 
 

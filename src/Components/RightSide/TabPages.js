@@ -6,7 +6,7 @@ export default function TabPages() {
   const [tabData , setTabData] = useState([
     {id:1 , src:"/user.png" , path:'/'},
     {id:2 , src:"/skills.png" , path:'/skills'},
-    {id:3 , src:"/road.png" , path:'/efwe'},
+    {id:3 , src:"/road.png" , path:'/mhmrez'},
     {id:4 , src:"/contact.png" , path:'/contact'},
   ])
   return (

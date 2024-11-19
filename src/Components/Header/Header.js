@@ -12,7 +12,6 @@ export default function Header() {
   deletionSpeed={250}
   speed={250}
 />
-      {/* <h1 className='text-title text-2xl mb-4'>Mhmrez.</h1> */}
     </div>
   )
 }
